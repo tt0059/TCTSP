@@ -1,0 +1,57 @@
+import json
+
+fix_dict = {}
+
+fix_dict[str(2360686)] = 'a man in a baseball uniform standing on the field putting gloves him with a bat under his arms with the blue baseball helmets. his uniform has black and red writing on with the number 38.  he has black and white baseball cleats and brown hair.  the field is light and dark green trimmed very well.  there is a white base on the ground in the drawer with 2 white squares outlined on the both sides of the home plate. '
+
+fix_dict[str(2337453)] = 'It is a daytime picture of a road with a two white vehicles waiting at a stop light. there are white marks on the grey road and the sky is blue and has no clouds in it. there are trees that have no leaves behind the cars and behind the trees there are a few houses that are brown in color.  Behind the houses there is a huge building that is brown in color.  There is also a street light in front of the vehicles on the road it has a tiny bicycle logo lit up in the color green. '
+
+fix_dict[str(2381173)] = 'a little girl with long brown hair and a pink shirt sitting out in the sun in a chair that is brown and woken with some juice and a chocolate cupcake with sprinkles on the table with tables sitting in the background with some vegetation. the little girl had earrings in her ears and there are napkins on the table she has a straw in her juice the sun is shining on the  left side of her face and she has a smile on her face.   she has a hairpin peening one side of her hair back the hairpin is different colors.  there are 2 chairs  at the other table behind the little girl with no one sitting in them. '
+
+fix_dict[str(2352279)] = 'A close up of a work space shows the corner seam of a gray brick wall, seemingly in good repair, cater corner to a second  brick wall, showing some marks that seem to indicate damage.  There is a bar nailed just below a notable stain.  On the bar are several knives, including a smaller one that is silver and roughly the size and bluntness of a small putty knife, as well as several much larger ones, with long, sharp blades and silver handles.   To the right of the single blunt knife and the four sharp knives, is a pair of scissors, with red and black handles.  Two more items hang from the nail of the board and just beside it. They appear to be a tea ball and a secondary item that resembles a straining devise. '
+
+fix_dict[str(2360769)] = 'A woman is standing in the women\'s toiletry items isle in a store.  She has her cell phone in her left hand and is talking on it at this moment while looking at the products on the shelf.  She is a blonde.  She is wearing a hoodie with a red, blue and yellow decal in the front, jeans, bo shoes but painted red toenails, a black leather band on her right wrist and a watch on her left wrist.  She has been shopping for a while because she has a red toat basket set down next to her left leg which is full of items. '
+
+fix_dict[str(2347006)] = 'It is a bright, clear day, with a blue sky and white clouds in the background.  An older red train with a wide white stripe down the center is sitting on railroad tracks.  Both of its doors are open, and a conductor wearing a white shirt stands in the doorway of the front side door.  The number two is painted on the door. It looks like there is another person standing next to the conductor, but that person is mostly hidden from view except for their hair, which is bushy and blond.  Behind the red and white train car, there is a round silver car on parallel tracks.  Behind the parallel tracks is a forest of green trees. '
+
+fix_dict[str(2335340)] = 'The image is in black and white.  There is a medium size horse with white markings, standing in a field with a lot of dry brush, dirt and rocks, holding its head down and away from a woman who also in the image.   The woman is standing to the right front of the horse outside of a barbed wire, stake type fence.   She appears to have blonde or gray hair, is wearing eye glasses, a long sleeve sweatshirt and blue jeans with tennis shoes. '
+
+fix_dict[str(2399583)] = 'This photo is taken inside of a room of a home.  A TV is sitting on top of a brown table in the room.  Two suitcases are sitting on the floor in front of the TV.  Posters are on a white wall near the TV.  Two small windows are blocked by large plants and other objects on the other side of the room.  A small fan is sitting on the floor below one of the plants. '
+
+fix_dict[str(2331387)] = 'A large black kitty is paying close attention to whatever is in its sights.  It is sitting on what looks to be a desk with its front paws hanging off of the front edge.  Both of its ears are perked up high. it has olive green eyes which are wide open and staring at someone or something. its tail is wrapped around the front of it and then underneath the front of its body. it has one, very visible, white whisker on the right side of its face, it prominently shows up against its dark fur.  There is a phone dock behind the right side of the cat on the desk, and a glass, possibly a lamp too.  There is a drawer beneath the cat and paperwork stored on a shelf below the drawer. '
+
+fix_dict[str(221)] = 'A brick ranch style house with a red door, and a white garage on the two car garage is seen in a suburb on a bright day. There is a wooden fence on the right of the garage to provide privacy to the back yard.  There are tall bushes and short trees to the right of the house near the garage.  There are taller, older trees in the back yard of the house on the left.  The street in front of the house is dark gray. '
+
+fix_dict[str(2373813)] = 'This is an image of a train station. To the left side,there is a long trail of water with green algae on top of it enclosed by a metal fence. In the middle,is the set of train tracks. In the front,there are two large cars one is blue with the word Malcom on it and the one behind it is dark blue with a yellow strip of paint on the front,behind it there is a large gap and then another blue,yellow,and white train passes it.  Above the tracks, there are large white pole with wires hanging from them. To the right of the tracks there is an open field and several large trees. '
+
+fix_dict[str(2358295)] = 'Two grey laptops sit side by side on a wood table.  Both are open and their screens are in an upright position.  Both screens show part of the same  scene.  A picture in the middle of the screens is gold with a black scroll design at the bottom.  There are small collages are to the left in one screen, but not shown in the second laptop. while in the second laptop a purple area is on the left side of the screen, which is not shown on the first laptop.  Both laptops have dark grey keys although the style of the keys is different. '
+
+fix_dict[str(2362407)] = 'Three young boys are playing baseball on a sunny day.  Two of the boys are dressed in dark blue tops and grey pants, and one, who is bigger than the boys in blue, is wearing a red shirt with the number seven on it, grey pants, and red socks.  He has a grey baseball cap on, while the two smaller boys are wearing heavy dark blue helmets.  One of the younger boys is swinging the bat and he has a determined look on his face.  The second boy in blue has his back to the picture.  He has the number nine on his shirt, and has both arms out and his legs positioned as if to run.  There is a high grey metal fence behind the boys.'
+
+fix_dict[str(2379745)] = 'At an intersection on a city street, a police man dressed in a white helmet, white belt, and grey pants and shirt is checking a small black article, probably a wallet, of a short man with black hair who is dressed in a cream shirt and pants.  Stopped at the intersection right behind the man is a large brown truck cab with a rounded cement mixer body.  A small bicycle is standing up in front of the truck.  Other cars can be seen driving on the multi-lane street.  A many story apartment building is in the background and multi-story buildings with small store fronts line the right side of the street.  It is a sunny day. '
+
+fix_dict[str(2357718)] = 'This is an outdoor image taken of a zebra. The zebra is not fully visible, you can only see the head and his mane has hair on it that looks it be about three inches long but under the bottom of his mouth there hair longer and is also a different color. Behind the zebra,there is a large metal fence and it is blue. Directly next to him,there are big green trees but the rest is not visible because of the glare on it.'
+
+fix_dict[str(2346090)] = 'The image is in all black and white, except for a purple umbrella that is on the ground between a parked car and a brick building.  The car is a HYUNDAI and the rear of the car is facing towards us with a visible license plate of LK05GVF.  There are multiple leaves and sticks scattered on the ground around the car, and a few wet areas near the back of the car and near the left bottom corner of the picture image where most of the leaves are gathered at.   On the opposite side of the road is an oncoming truck, and there are buildings on the other side of the road. '
+
+fix_dict[str(2412023)] = 'The back of a large grey elephant that is using its trunk to put brush strokes on a large piece of paper attached to a red easel is doing this in front of a crowd of people sitting in stacked seats similar to what can be found in an auditorium.  There are mainly children in one area in the front, but the majority of the seats are empty.  The seats are blue, and the lighting is very strong.  The elephant has small ears and is wearing a red halter.'
+
+fix_dict[str(2413803)] = 'The image is of a side of the street with the main focal point being a pole with two green street signs with white letters, a white pedestal sink broken in half with the bowl lying on the pavement to the left next to the pole, and a yellow fire hydrant to the right of the pole.  Behind those objects are a bunch of flower trees and bushes that have purple and pink flowers, and green trees behind them.  The bottom street sign says 12 AVE E, sign above it says E Newton ST, and a small sign at the very top says 2000.  There is also green grass starting from where the bowl of the sink is and all the way past the fire hydrant.  There is a sidewalk between the objects and the flowers. '
+
+fix_dict[str(2327894)] = 'A black and orange vase is set on a red shelf inside a glass case.  The vase appears antique.  The bottom half is black and the middle part of the vase depicts a black man dressed in a long white toga, riding a black chariot being pulled by four black horses with grey, black and white harnesses, set against an orange background.  The top half of the vase has two handles and is decorated in orange and black filigree.  The wall behind the vase is red.'
+
+fix_dict[str(2394562)] = 'A man in a red shirt with a black design on the front and khaki shorts is preparing to throw a white Frisbee. The man is bending at the knees, and wearing dark red shoes, and black rimmed dark sunglasses.  The sun is shining high in the sky and casting a shadow on the right side of the man.  There are trees behind the man as well as a fire hydrant.  '
+
+
+
+myfile = json.load(open('data_vg/para_myfix_format.json'))
+
+
+
+for i,img in enumerate(myfile['images']):
+    ids = str(img['id'])
+    if(ids in fix_dict.keys()):
+        img['sentences'][0]['raw'] = fix_dict[ids]
+        debug = 1
+
+json.dump(myfile,open('data_vg/para_myfix_format.json','w'))

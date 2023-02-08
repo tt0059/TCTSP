@@ -1,0 +1,10 @@
+0. fix_captions
+1. prepro_labels_ptbtokennize
+2. create_new_vocab
+3. prepro_labels_pkl
+4. create_val_test_json
+5. CLUSTER by bert
+6. prepro_topics_gts_RL
+7. PREPARE cider cache in tools
+
+para数据集处理成xlan可以用的格式，数据集不变的话，不需要改动。
