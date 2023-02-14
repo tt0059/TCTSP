@@ -16,7 +16,7 @@ For more detailed environment settings, please refer to TCTSP/environment.yml
 ## Evaluate
 To conduct evaluation of the pre-trained model, you can run the following commands:
 ```shell
-CUDA_VISIBLE_DEVICES=0 python main_test.py --folder /home/tangt/nfs_tangt/code/my-image-to-paragraph/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test --resume 57 --markov_mat_path /home/tangt/nfs_tangt/code/my-image-to-paragraph/data/markov_mat_kmeans.npy
+CUDA_VISIBLE_DEVICES=0 python main_test.py --folder /home/tangt/nfs_tangt/code/my-image-to-paragraph/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test --resume 57 --markov_mat_path ./data/markov_mat_kmeans.npy
 ```
 
 ## Acknowledgement
