@@ -242,4 +242,4 @@ dependencies:
     - yacs==0.1.8
     - yarl==1.6.3
     - zipp==3.5.0
-prefix: /home/huangyq/anaconda3/envs/im2para
+prefix: /home/user/anaconda3/envs/im2para
