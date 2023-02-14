@@ -106,7 +106,7 @@ def parse_args():
     parser.add_argument("--resume", type=int, default=38)
     parser.add_argument("--split", type=str, default='test')
     parser.add_argument('--markov_mat_path',type=str,default='/home/huangyq/my-image-to-paragraph/data/markov_mat.npy')
-    parser.add_argument('--topic_num',type=int,default=190,help='number of topic')
+    parser.add_argument('--topic_num',type=int,default=82,help='number of topic')
     parser.add_argument('--drop_prob_lm',type=float,default=0,help='0')
     #if len(sys.argv) == 1:
     #    parser.print_help()
