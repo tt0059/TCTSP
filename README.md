@@ -6,6 +6,8 @@ The codebase is tested under the following environment settings:
 - python: 3.6.13
 - pytorch: 1.4.0
 - torchvision: 0.5.0
+- cider (already included as a submodule)
+- coco-caption (already included as a submodule)
 
 For more detailed environment settings, please refer to TCTSP/environment.yml
 
