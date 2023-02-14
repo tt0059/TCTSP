@@ -16,13 +16,13 @@ TEST:
 DATA_LOADER:
   NUM_WORKERS: 4
   SHUFFLE: True
-  TRAIN_GV_FEAT: '/home/tangt/res101_10_100_ray/feature'
-  TRAIN_ATT_FEATS: '/home/tangt/res101_10_100_ray/feature'
-  VAL_GV_FEAT: '/home/tangt/res101_10_100_ray/feature'
-  VAL_ATT_FEATS: '/home/tangt/res101_10_100_ray/feature'
-  TEST_GV_FEAT: '/home/tangt/res101_10_100_ray/feature'
-  TEST_ATT_FEATS: '/home/tangt/res101_10_100_ray/feature'
-  TRAIN_ID: './data_vg/train_ids.txt'
+  TRAIN_GV_FEAT: './res101_10_100_ray/feature'
+  TRAIN_ATT_FEATS: './res101_10_100_ray/feature'
+  VAL_GV_FEAT: './res101_10_100_ray/feature'
+  VAL_ATT_FEATS: './res101_10_100_ray/feature'
+  TEST_GV_FEAT: './res101_10_100_ray/feature'
+  TEST_ATT_FEATS: './res101_10_100_ray/feature'
+  TRAIN_ID: './data_vg/train_ids.txt'  # data_vg needs to be downloaded
   VAL_ID: './data_vg/val_ids.txt'
   TEST_ID: './data_vg/test_ids.txt'
   INPUT_SEQ_PATH: './data_vg/vg_train_input.pkl'
