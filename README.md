@@ -46,3 +46,5 @@ CUDA_VISIBLE_DEVICES=0 python main_test.py --folder ./experiments/Xlan_SAP_V6_km
 ```
 
 ## Acknowledgement
+
+Part of the code is borrowed from [image-captioning](https://github.com/JDAI-CV/image-captioning). We thank the authors for releasing their codes.
