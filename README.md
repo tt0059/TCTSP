@@ -9,9 +9,33 @@ The codebase is tested under the following environment settings:
 
 For more detailed environment settings, please refer to TCTSP/environment.yml
 
-## Prepare the dataset
+## Prepare the data
+We have extracted the features of the images in the Stanford image paragraph dataset using Faster R-CNN and uploaded them. 
+The way to get them is as follows:
+
+1.download res101_10_100_ray.tar.gz from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
+
+2.Extract to the TCTSP/ directory using the following command：
+```shell
+tar -xzvf res101_10_100_ray.tar.gz
+```
+
+The rest of the data needed for the experiment is stored in data_vg.tar.gz and uploaded, and the method to obtain is as follows:
+
+1.download data_vg.tar.gz from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
+
+2.Extract to the TCTSP/ directory using the following command：
+```shell
+tar -xzvf data_vg.tar.gz
+```
 
 ## Download the checkpoints
+
+Our already pre-trained model is obtained in the following way:
+
+1.download caption_model_57.pth from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
+
+2.Put caption_model_57.pth under path ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 
 ## Evaluate
 To conduct evaluation of the pre-trained model, you can run the following commands:
