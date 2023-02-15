@@ -27,7 +27,7 @@ tar -xzvf res101_10_100_ray.tar.gz
 
 The rest of the data needed for the experiment is stored in data_vg.tar.gz and uploaded, and the method to obtain is as follows:
 
-1.download data_vg.tar.gz from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
+1.download data_vg.tar.gz from: [https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing](https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing).
 
 2.Extract to the TCTSP/ directory using the following command：
 ```shell
