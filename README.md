@@ -40,7 +40,12 @@ Our already pre-trained model is obtained in the following way:
 
 1.download caption_model_57.pth from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
 
-2.Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
+2.make a snapshot folder:
+```shell
+mkdir ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
+```
+
+3.Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 
 ## Evaluate
 To conduct evaluation of the pre-trained model, you can run the following commands:
