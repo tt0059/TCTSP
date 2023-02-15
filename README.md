@@ -48,6 +48,8 @@ mkdir ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 3.Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 
 ## Evaluate
+In image paragraph captioning task, we only compute BLEU, METEOR and CIDEr, so other metrics in line 47 of TCTSP/pycocoevalcap/eval.py need to be delete.
+
 To conduct evaluation of the pre-trained model, you can run the following commands:
 ```shell
 CUDA_VISIBLE_DEVICES=0 python main_test.py --folder ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test --resume 57 --markov_mat_path ./data/markov_mat_kmeans.npy
