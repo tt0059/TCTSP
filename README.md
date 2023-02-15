@@ -3,11 +3,11 @@
 ## Environment settings
 The codebase is tested under the following environment settings:
 - cuda: 10.1
+- numpy 1.19.5
 - python: 3.6.13
 - pytorch: 1.4.0
 - torchvision: 0.5.0
-- cider (already included as a submodule)
-- coco-caption (already included as a submodule)
+- [coco-caption](https://github.com/ruotianluo/coco-caption) (put pycocoevalcap and pycocotools under path TCTSP/)
 
 For more detailed environment settings, please refer to TCTSP/environment.yml
 
@@ -37,7 +37,7 @@ Our already pre-trained model is obtained in the following way:
 
 1.download caption_model_57.pth from: https://pan.baidu.com/s/1JrSwDxFDPZLWhaWlGyN12A?pwd=0059.
 
-2.Put caption_model_57.pth under path ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
+2.Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 
 ## Evaluate
 To conduct evaluation of the pre-trained model, you can run the following commands:
