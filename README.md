@@ -9,7 +9,10 @@ The codebase is tested under the following environment settings:
 - torchvision: 0.5.0
 - [coco-caption](https://github.com/ruotianluo/coco-caption) (put pycocoevalcap and pycocotools under path TCTSP/)
 
-For more detailed environment settings, please refer to TCTSP/environment.yml
+For more detailed environment settings, please refer to TCTSP/environment.yml:
+```shell
+conda env create -f environment.yml
+```
 
 ## Prepare the data
 We have extracted the features of the images in the Stanford image paragraph dataset using Faster R-CNN and uploaded them. 
