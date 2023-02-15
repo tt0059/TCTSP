@@ -56,15 +56,15 @@ class Evaler(object):
                     else:
                         seq, _ = model.module.decode_beam(**kwargs)
                 else:
-                    seq, _, topic_sents, _ = model.module.decode(**kwargs) # 当前的评估方法暂且没有使用到topic_sents
-                sents = utils.decode_sequence(self.vocab, seq.data) # 对预测的句子由数字映射到单词或标点（貌似标点只有句号）
+                    seq, _, topic_sents, _ = model.module.decode(**kwargs) 
+                sents = utils.decode_sequence(self.vocab, seq.data) 
                 for sid, sent in enumerate(sents):
-                    result = {cfg.INFERENCE.ID_KEY: int(ids[sid]), cfg.INFERENCE.CAP_KEY: sent, 'topic sequence': topic_sents[sid][topic_sents[sid]!=-1].tolist()} # 这里记录一下topic
+                    result = {cfg.INFERENCE.ID_KEY: int(ids[sid]), cfg.INFERENCE.CAP_KEY: sent} 
                     results.append(result)
                 #break
 
         if(self.is_eval):
-            eval_res = self.evaler.eval(results) # 对生成结果进行评估
+            eval_res = self.evaler.eval(results) 
 
             result_folder = os.path.join(cfg.ROOT_DIR, 'result')
             if not os.path.exists(result_folder):
@@ -72,6 +72,6 @@ class Evaler(object):
             json.dump(results, open(os.path.join(result_folder, 'result_' + rname +'.json'), 'w'))
 
             model.train()
-            return eval_res, topic_sents
+            return eval_res
         else:
             return None
