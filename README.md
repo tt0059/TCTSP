@@ -7,7 +7,7 @@ The codebase is tested under the following environment settings:
 - python: 3.6.13
 - pytorch: 1.4.0
 - torchvision: 0.5.0
-- [coco-caption](https://github.com/ruotianluo/coco-caption) (put pycocoevalcap and pycocotools under path TCTSP/)
+- [coco-caption](https://github.com/ruotianluo/coco-caption) (put pycocoevalcap under path TCTSP/)
 
 For more detailed environment settings, please refer to TCTSP/environment.yml:
 ```shell
