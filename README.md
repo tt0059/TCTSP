@@ -19,9 +19,9 @@ conda env create -f environment.yml
 We have extracted the features of the images in the Stanford image paragraph dataset using Faster R-CNN and uploaded them. 
 The way to get them is as follows:
 
-1.Download res101_10_100_ray.tar.gz from: [https://drive.google.com/file/d/1-17LEg4CEHW2rICjJ_YEfJkpZ8X2PiuZ/view?usp=sharing](https://drive.google.com/file/d/1-17LEg4CEHW2rICjJ_YEfJkpZ8X2PiuZ/view?usp=sharing).
+1. Download res101_10_100_ray.tar.gz from: [https://drive.google.com/file/d/1-17LEg4CEHW2rICjJ_YEfJkpZ8X2PiuZ/view?usp=sharing](https://drive.google.com/file/d/1-17LEg4CEHW2rICjJ_YEfJkpZ8X2PiuZ/view?usp=sharing).
 
-2.Extract to the TCTSP/ directory using the following command：
+2. Extract to the TCTSP/ directory using the following command：
 ```shell
 tar -xzvf res101_10_100_ray.tar.gz
 ```
@@ -29,9 +29,9 @@ tar -xzvf res101_10_100_ray.tar.gz
 ### Others
 The rest of the data needed for the experiment is stored in data_vg.tar.gz and uploaded, and the method to obtain is as follows:
 
-1.Download data_vg.tar.gz from: [https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing](https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing).
+1. Download data_vg.tar.gz from: [https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing](https://drive.google.com/file/d/1--thaTlTnc6BWU16rV3xa6UEUa5zR6y5/view?usp=sharing).
 
-2.Extract to the TCTSP/ directory using the following command：
+2. Extract to the TCTSP/ directory using the following command：
 ```shell
 tar -xzvf data_vg.tar.gz
 ```
@@ -40,14 +40,14 @@ tar -xzvf data_vg.tar.gz
 
 Our pre-trained model is obtained in the following way:
 
-1.Download caption_model_57.pth from: [https://drive.google.com/file/d/1-1M8ySZd0FsDMYvdXoa_T8rRsDDK5MLC/view?usp=sharing](https://drive.google.com/file/d/1-1M8ySZd0FsDMYvdXoa_T8rRsDDK5MLC/view?usp=sharing).
+1. Download caption_model_57.pth from: [https://drive.google.com/file/d/1-1M8ySZd0FsDMYvdXoa_T8rRsDDK5MLC/view?usp=sharing](https://drive.google.com/file/d/1-1M8ySZd0FsDMYvdXoa_T8rRsDDK5MLC/view?usp=sharing).
 
-2.Make a snapshot folder:
+2. Make a snapshot folder:
 ```shell
 mkdir ./experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 ```
 
-3.Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
+3. Put caption_model_57.pth under path TCTSP/experiments/Xlan_SAP_V6_kmeans_wt03_RL_wt05_CIDEr_25_test/snapshot/
 
 ## Evaluate
 In image paragraph captioning task, we only compute BLEU, METEOR and CIDEr, so other metrics in line 47 of TCTSP/pycocoevalcap/eval.py need to be delete.
