@@ -85,7 +85,7 @@ class Tester(object):
             )
         
     def eval(self, epoch, split):
-        res, topic_sents = self.evaler(self.model, split+'_' + str(epoch), cfg.MODEL.TYPE)
+        res = self.evaler(self.model, split+'_' + str(epoch), cfg.MODEL.TYPE)
         if(res is not None):
             self.logger.info('######## Epoch ' + str(epoch) + ' '+ split+ ' ########')
             self.logger.info(str(res))
