@@ -15,19 +15,17 @@ The paper can be accessed and downloaded via the following link:
 Image paragraph captioning involves generating a semantically coherent paragraph describing an image’s visual content. The selection and shifting of sentence topics are critical when a human describes an image. However, previous hierarchical image paragraph captioning methods have not fully explored or utilized sentence topics. In particular, the continuous and implicit modeling of topics in these methods makes it difficult to supervise the topic prediction process explicitly. We propose a new method called topic clustering and topic shift prediction (TCTSP) to solve this problem. Topic clustering (TC) in the sentence embedding space generates semantically explicit and discrete topic labels that can be directly used to supervise topic prediction. By introducing a topic shift probability matrix that characterizes human topic shift patterns, topic shift prediction (TSP) predicts subsequent topics that are both logical and consistent with human habits based on visual features and language context. TCTSP can be combined with various image paragraph captioning model structures to improve performance. Extensive experiments were conducted on the Stanford image paragraph dataset, and superior results were reported compared with previous state-of-the-art approaches. In particular, TCTSP improved the consensus-based image description evaluation (CIDEr) performance of image paragraph captioning to 41.67%. The codes are available at https://github.com/tt0059/TCTSP.
 
 ## Citation
-For citing this paper, please use the following format:
-@article{TANG2024111401,
-title = {Image paragraph captioning with topic clustering and topic shift prediction},
-journal = {Knowledge-Based Systems},
-volume = {286},
-pages = {111401},
-year = {2024},
-issn = {0950-7051},
-doi = {https://doi.org/10.1016/j.knosys.2024.111401},
-url = {https://www.sciencedirect.com/science/article/pii/S0950705124000364},
-author = {Ting Tang and Jiansheng Chen and Yiqing Huang and Huimin Ma and Yudong Zhang and Hongwei Yu},
-keywords = {Image paragraph captioning, Topic clustering, Topic shift prediction, Hierarchical supervision},
-abstract = {Image paragraph captioning involves generating a semantically coherent paragraph describing an image’s visual content. The selection and shifting of sentence topics are critical when a human describes an image. However, previous hierarchical image paragraph captioning methods have not fully explored or utilized sentence topics. In particular, the continuous and implicit modeling of topics in these methods makes it difficult to supervise the topic prediction process explicitly. We propose a new method called topic clustering and topic shift prediction (TCTSP) to solve this problem. Topic clustering (TC) in the sentence embedding space generates semantically explicit and discrete topic labels that can be directly used to supervise topic prediction. By introducing a topic shift probability matrix that characterizes human topic shift patterns, topic shift prediction (TSP) predicts subsequent topics that are both logical and consistent with human habits based on visual features and language context. TCTSP can be combined with various image paragraph captioning model structures to improve performance. Extensive experiments were conducted on the Stanford image paragraph dataset, and superior results were reported compared with previous state-of-the-art approaches. In particular, TCTSP improved the consensus-based image description evaluation (CIDEr) performance of image paragraph captioning to 41.67%. The codes are available at https://github.com/tt0059/TCTSP.}
+For citing this paper, please use the following format:  
+@article{TANG2024111401,  
+title = {Image paragraph captioning with topic clustering and topic shift prediction},  
+journal = {Knowledge-Based Systems},  
+volume = {286},  
+pages = {111401},  
+year = {2024},  
+issn = {0950-7051},  
+doi = {https://doi.org/10.1016/j.knosys.2024.111401},  
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124000364},  
+author = {Ting Tang and Jiansheng Chen and Yiqing Huang and Huimin Ma and Yudong Zhang and Hongwei Yu},  
 }
 
 ## Environment settings
