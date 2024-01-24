@@ -25,7 +25,7 @@ year = {2024},
 issn = {0950-7051},  
 doi = {https://doi.org/10.1016/j.knosys.2024.111401},  
 url = {https://www.sciencedirect.com/science/article/pii/S0950705124000364},  
-author = {Ting Tang and Jiansheng Chen and Yiqing Huang and Huimin Ma and Yudong Zhang and Hongwei Yu},  
+author = {Ting Tang and Jiansheng Chen and Yiqing Huang and Huimin Ma and Yudong Zhang and Hongwei Yu} 
 }
 
 ## Environment settings
