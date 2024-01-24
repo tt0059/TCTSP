@@ -5,6 +5,7 @@ This paper has been published in the journal "Knowledge-Based Systems".
 ## Paper Details
 - Title: Image Paragraph Captioning with Topic Clustering and Topic Shift Prediction
 - Authors: Ting Tang, Jiansheng Chen, Yiqing Huang, Huimin Ma, Yudong Zhang, Hongwei Yu
+- Publication Date: 2024/1/18
 - Journal: Knowledge-Based Systems
 
 ## Access and Download
