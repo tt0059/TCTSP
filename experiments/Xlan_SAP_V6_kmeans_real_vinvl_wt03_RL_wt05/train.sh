@@ -1,7 +1,7 @@
 CUDA_VISIBLE_DEVICES=1 \
 python -m torch.distributed.launch \
 --nproc_per_node=1 \
-/home/tangt/my-image-to-paragraph/main_soft_tt_VinVL.py \
+/home/tangt/my-image-to-paragraph/main_soft_train.py \
 --folder /home/tangt/my-image-to-paragraph/experiments/Xlan_SAP_V6_kmeans_real_vinvl_wt03_RL_wt05/ \
 --resume 0 \
 --topic_weight 0.05 \
